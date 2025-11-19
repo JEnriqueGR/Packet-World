@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="packetWorld.InicioSesionController">
+   <children>
+      <Button layoutX="413.0" layoutY="336.0" mnemonicParsing="false" text="Iniciar Sesión" onAction="#clickiniciarsesion" />
+      <Label layoutX="365.0" layoutY="80.0" text="No. de Personal" />
+      <Label layoutX="368.0" layoutY="200.0" text="Contraseña" />
+      <PasswordField fx:id="Contra" layoutX="363.0" layoutY="229.0" promptText="*******" />
+      <TextField fx:id="NoPersonal" layoutX="365.0" layoutY="117.0" promptText="p001" />
+      <Label layoutX="420.0" layoutY="34.0" text="BIenvenido(a)" textAlignment="CENTER" />
+      <ImageView fitHeight="273.0" fitWidth="322.0" layoutX="23.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@resource/FEI_img.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="labelNP" layoutX="366.0" layoutY="160.0" prefHeight="27.0" prefWidth="224.0" textFill="#fc0000" />
+      <Label fx:id="labelContra" layoutX="363.0" layoutY="277.0" prefHeight="27.0" prefWidth="224.0" textFill="#fc0000" />
+   </children>
+</AnchorPane>
